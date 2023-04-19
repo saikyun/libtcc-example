@@ -13,6 +13,7 @@ int main()
 
     tcc_add_include_path(s, "lib/");
     tcc_add_file(s, "src/main.c");
+    
     // you can do it :)
     // tcc_add_file(s, "src/other_main.c");
 
